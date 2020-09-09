@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--  No dibuja el icono
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    -->    
+    <!--  Librerias para las redes sociales en linea  -->    
+     <!-- build:css  dist/precios.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/open-iconic/font/css/open-iconic-bootstrap.min.css">  
+    <!-- endbuild -->
+
+   <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  > 
+    -->
+
+
+   <!-- build:js  dist/precios.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
+    <script src="js/index.js"></script>   
+    <!-- endbuild -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--
+     <script src="node_modules/jquery/dist/jquery.slim.min.js" ></script>
+     -->
+
+
+    <title>Bienvenidos a delicias Lily!</title>
+  </head>
+  
+  <body>
+
+
+	<!-- Menu -->
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	  <a class="navbar-brand" href="#">Menu</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="nosotros.html">Nosotros</a>
+	      </li>   
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Caracteristicas</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="precios.html">Precios</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contacto.html">Contacto</a>
+	      </li>    
+	    </ul>
+	  </div>  
+	</nav>	
+
+   <!-- jumbotron-->
+	<div class="jumbotron">
+	  <h1>Precios</h1>
+	</div>
+
+    </br>
+	<!-- Usando la clase flex-wrap -->
+	<div class="container">
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">precios</li>
+		  </ol>
+		</nav>	 
+
+        </br>
+
+		<!-- Usando tabs -->
+		<ul class="nav nav-pills" role="tablist" id="myTab">
+		  <li class="nav-item">
+		    <a class="nav-link active" href="#menu" role="tab" data-toggle="pill">Menú</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#tarjeta" role="tab" data-toggle="pill">Tarjetas</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#comentarios" role="tab" data-toggle="pill">Comentarios</a>
+		  </li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <!-- Tab 1 -->
+		  <div role="tabpanel" class="tab-pane fade show active" id="menu">
+				<!-- Tabla de precios -->
+				<div class="table-responsive">
+					<table class="table table-striped">
+					  <thead class="thead-dark">
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">Menú</th>
+					      <th scope="col">Detalle</th>
+					      <th scope="col">Precio</th>
+					      <th scope="col">A</th>
+					      <th scope="col">B</th>
+					      <th scope="col">C</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td><span class="oi oi-menu"></span>  Menú 1</td>
+					      <td>Arroz, carne de cerdo agridulce, verduras cocidas</td>
+					      <td>$ 8.000</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td><span class="oi oi-menu"></span>  Menú 2</td>
+					      <td>Mondongo Santandereano</td>
+					      <td>$ 12.000</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>			      
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td><span class="oi oi-menu"></span>  Menú 3</td>
+					      <td>Pechuga gratinada, ensalada, arroz</td>
+					      <td>$ 10.000</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>			      
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td><span class="oi oi-menu"></span>  Menú 4</td>
+					      <td>Ensalada light Goorumet</td>
+					      <td>$ 10.000</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>			      
+					    </tr>	
+					    <tr>
+					      <th scope="row">5</th>
+					      <td><span class="oi oi-menu"></span>  Menú 5</td>
+					      <td>Carne en Bistec con verduras, arroz</td>
+					      <td>$ 12.000</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>
+					      <td>XXXXXX</td>			      
+					    </tr>				    		    
+					  </tbody>
+					</table>		
+				</div>	
+		  </div>
+
+		  <!-- Tab 2 -->
+		  <div role="tabpanel" class="tab-pane fade" id="tarjeta">
+			 <!-- accordions  -->
+		      <div class="accordion" id="accordionTarjetas">
+			  <div class="card">
+			    <div class="card-header" id="headingOne">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          Collapsible Group Item #1
+			        </button>
+			      </h2>
+			    </div>
+
+			    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+ 					Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+			      </div>
+			    </div>
+
+			  <div class="card">
+			    <div class="card-header" id="headingTwo">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          Collapsible Group Item #2
+			        </button>
+			      </h2>
+			    </div>
+			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+			      <div class="card-body">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="card">
+			    <div class="card-header" id="headingThree">
+			      <h2 class="mb-0">
+			        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          Collapsible Group Item #3
+			        </button>
+			      </h2>
+			    </div>
+			    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+			      <div class="card-body">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 
+			      </div>
+			    </div>
+			  </div>
+		  </div>
+			  
+		  <!-- tarjetas  -->
+		   <!--
+           </br>
+	       <div class="d-flex justify-content-center center-block">
+		        <div class="card" style="width: 18rem; " >
+		           <div class="card-header"> Listas
+		           </div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Cras justo odio</li>
+					  <li class="list-group-item">Dapibus ac facilisis in</li>
+					  <li class="list-group-item">Morbi leo risus</li>
+					  <li class="list-group-item">Porta ac consectetur ac</li>
+					  <li class="list-group-item">Vestibulum at eros</li>
+					</ul>	
+			   </div>				
+		   </div>			  
+		   -->	  
+          </div>
+
+
+		  <!-- Tab 3 -->
+		  <div role="tabpanel" class="tab-pane fade" id="comentarios">
+		  	<div class="form-group">
+			    <label for="comentario">Comentario</label>
+			    <textarea class="form-control" id="comentario" rows="3"></textarea>
+			</div>
+		    <div class="form-row">
+			    <div class="form-group col-sm-2" >
+			       <button type="submit" class="btn btn-primary">Enviar</button>
+			     </div>
+			 </div>
+		  </div>		  
+
+
+		</div>
+		 </br>
+	</div>	
+
+
+	<!--footer -->
+	<footer class="footerD">
+
+	<div class="container">
+		<ul class="foote_bottom_ul_amrc">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Precios</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+		<!--foote_bottom_ul_amrc ends here-->
+		<p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+
+	    <!--social_footer_ul start here-->
+		<ul class="social_footer_ul">
+			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i>
+			       </a></li>
+			<li><a href="#" class="icoTwitter" title="twitter"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#" class="icoInstagram" title="instagram"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	    <!--social_footer_ul ends here-->
+	</div>
+
+	</footer>	
+	<!--footer end -->
+
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "port": 50933,
+  "files": ["./src/**/*.{html,htm,css,js}"],
+  "ui": {
+    "port": 50933
+  }
+}
